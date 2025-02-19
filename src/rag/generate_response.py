@@ -63,7 +63,7 @@ def generate_ai_response(query, retrieved_comments):
 # Main function for testing
 def main():
     query = input("\nEnter a search query: ")
-    sentiment_filter = input("🎭 Filter by sentiment? (positive/negative/neutral/all): ").lower()
+    sentiment_filter = input("Filter by sentiment? (positive/negative/neutral/all): ").lower()
 
     if sentiment_filter == "all":
         sentiment_filter = None  # No filtering

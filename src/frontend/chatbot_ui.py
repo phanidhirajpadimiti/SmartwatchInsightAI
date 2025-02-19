@@ -2,10 +2,10 @@ import streamlit as st
 import requests
 
 # API endpoint
-API_URL = "http://localhost:8000/chat"
+API_URL = "http://localhost:8000/api/chat"
 
 st.set_page_config(page_title="Smartwatch Chatbot", page_icon="⌚")
-st.title("Smartwatch AI Chatbot")
+st.title("⌚ Smartwatch AI Chatbot")
 
 query = st.text_input("Ask me about Smartwatch reviews:")
 sentiment_filter = st.selectbox("Filter by sentiment:", ["all", "positive", "negative"])
