@@ -1,0 +1,15 @@
+pymongo
+python-dotenv
+requests
+pandas
+transformers
+torch 
+torchvision 
+torchaudio
+sentence-transformers
+pinecone-client
+numpy
+openai
+fastapi
+uvicorn
+streamlit
